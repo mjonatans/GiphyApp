@@ -1,0 +1,20 @@
+{
+    "name": "markuss/giphy-app",
+    "autoload": {
+        "psr-4": {
+            "GiphyApp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Markuss",
+            "email": "mjonatans@inbox.lv"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.5",
+        "symfony/dotenv": "^5.4",
+        "nikic/fast-route": "^1.3",
+        "vlucas/phpdotenv": "^5.5"
+    }
+}
